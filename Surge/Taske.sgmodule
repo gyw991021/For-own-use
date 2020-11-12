@@ -33,28 +33,11 @@ cron "3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/mas
 # 美团
 cron "3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
 
-# Acfun
-cron "2 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js
-
-# 网易云音乐
-cron "3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
-
-# 滴滴
-cron "59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
-
-# 腾讯视频
-cron "3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
-
-# 字幕组
-cron "4 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js
-
 # 饿了么
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
 cron "50 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemPea.js
 
-# rrtv
-cron "4 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
+
 
 # 吾爱破解
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
@@ -62,14 +45,9 @@ cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/mas
 # bilibili 动漫
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 
-# 万达电影
-万达电影_每日签到 = type=cron,cronexp=5 0 * * *,timeout=10,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js
 
-# 彩云天气
-cron "10 8-22/2 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,wake-system=1, tag=彩云天气
 
 # 百度贴吧
 cron "7 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,wake-system=1, tag=百度贴吧
 
-# 微博通知
-cron "0 * * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js,wake-system=1, tag=微博通知
+
